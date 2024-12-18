@@ -54,15 +54,15 @@ header, section {
     padding: 100px 0;
 }
 
-.section-first {
+header {
     background-color: #d7d7d7;
 }
 
-.section-second {
+.about-me {
     background-color: #ffeaea;
 }
 
-.section-third {
+.articles {
     background-color: #eaf9ff;
 }
 
