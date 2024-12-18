@@ -4,6 +4,7 @@ body {
     font-family: "Roboto", serif;
     font-size: 21px;
     margin: 0;
+    color: #fff;
 }
 
 /* typography */
@@ -15,14 +16,17 @@ h1, h2 {
 
 h1 {
     font-size: 60px;
+    margin-top: 0;
 }
 
 h2 {
     font-size: 42px;
+    margin: 0;
 }
 
 h3 {
     font-size: 36px;
+    margin-bottom: 0;
 }
 
 h1 span, h2 span {
@@ -39,6 +43,10 @@ h2 span {
     font-size: 60px;
 }
 
+p {
+    margin-bottom: 0;
+}
+
 .small-para {
     font-size: 16px;
     margin-top: 0;
@@ -51,17 +59,15 @@ header, section {
     padding: 100px 0;
 }
 
-header {
-    background-color: #d7d7d7;
+header, .articles {
+    background-color: #252525;
 }
 
 .about-me {
-    background-color: #ffeaea;
+    background-color: #fff;
+    color: #252525;
 }
 
-.articles {
-    background-color: #eaf9ff;
-}
 
 .container {
     width: 570px;
